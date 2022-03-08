@@ -1,5 +1,5 @@
 require("bootstrap");
-const createEl = require("./domMethods");
+const createEl = require('./domMethods');
 
 $(document).ready( function() {
 
@@ -23,4 +23,4 @@ $(document).ready( function() {
       
     }
     purchaseBtn.addEventListener("click", purchaseTicket);
-  })
+})
